@@ -1,0 +1,7 @@
+def maior_elemento(lista):                #função - parametro lista
+    for i in lista:                       #para cada item em lista
+        return max(lista)                 #retorne o maior número 
+        
+        
+lista = [1,22,4,5,66,7,77,4]               #ex: lista
+maior_elemento(lista)                      # saída - 77
